@@ -23,15 +23,15 @@ body {
 }
 
 .time-unit {
-    width: 150px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     background-color: #282C34;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6rem;
+    font-size: 20rem;
     border-radius: 10px;
-    border: 5px solid #EACD95;
+    border: 0px solid #EACD95;
     margin: 0 10px;
 }
 
@@ -44,7 +44,7 @@ body {
     position: fixed;
     bottom: 30px; /* Aumente o valor para mover mais para cima */
     width: 90%;
-    height: 40px;
+    height: 20px;
     background-color: #282C34;
     border-radius: 10px;
     border: 2px solid #EACD95;
