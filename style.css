@@ -8,6 +8,7 @@
 body {
     background-color: #21252B;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -18,6 +19,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #EACD95;
+    margin-bottom: 50px;
 }
 
 .time-unit {
@@ -29,11 +31,31 @@ body {
     align-items: center;
     font-size: 6rem;
     border-radius: 10px;
-    border: 2px solid #EACD95;
+    border: 5px solid #EACD95;
     margin: 0 10px;
 }
 
 .separator {
     font-size: 6rem;
     color: #EACD95;
+}
+
+.progress-container {
+    position: fixed;
+    bottom: 30px; /* Aumente o valor para mover mais para cima */
+    width: 90%;
+    height: 40px;
+    background-color: #282C34;
+    border-radius: 10px;
+    border: 2px solid #EACD95;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.progress-bar {
+    height: 100%;
+    background-color: #EACD95;
+    width: 0;
+    border-radius: 7px;
 }
